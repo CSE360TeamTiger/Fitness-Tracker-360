@@ -1,6 +1,4 @@
 
-import java.io.*;
-import java.util.*;
 public class User {
 	private boolean authenticated;
 	private String email;
@@ -9,11 +7,10 @@ public class User {
 	private String encryptedPassword;
 	
 	public User(String email, String fName, String lName, String password){
-		
 		this.email = email;
-		this.encryptedPassword = setPassword(password); //add function call to encryption algorthim
+		this.encryptedPassword = setPassword(password);
 		this.firstName = fName;
-		this.lastName =lName;
+		this.lastName = lName;
 		this.authenticated = false;
 	}
 	public User(){
@@ -30,8 +27,8 @@ public class User {
 	public String getPassword(){ return encryptedPassword;}
 	public boolean getAuthenticate(){ return authenticated;}
 	
-	public void setEmail(String email){ this.email = email;}
-	private String setPassword(String password){ return password; /*algorithm for encrytion*/}
+	private String setPassword(String password){ return password; /*algorithm for encryption*/}
+	public void setEmail(String email){ this.email = email;}	
 	public void setFirstName(String fName){ this.firstName  = fName;}
 	public void setLastName(String lName){ this.lastName = lName;}
 	public void setAuthenticate(boolean authenticate){ this.authenticated = true;}
