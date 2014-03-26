@@ -21,11 +21,14 @@ public class Patient extends User {
 	
 	public void setWeight(double w){ this.weight = w;}
 	public void setHeight(double h){ this.height = h;}
+<<<<<<< HEAD
 	public void setAddress(String street, String city, String state, String zipCode){
 		this.pAddress.street = street;
 		this.pAddress.city = city;
 		this.pAddress.state = state;
 		this.pAddress.zipCode = zipCode;
 	}
+=======
+>>>>>>> branch 'version1' of https://github.com/CSE360TeamTiger/Fitness-Tracker-360.git
 
 }
