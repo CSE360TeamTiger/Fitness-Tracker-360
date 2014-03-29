@@ -31,6 +31,6 @@ public class User {
 	public void setEmail(String email){ this.email = email;}	
 	public void setFirstName(String fName){ this.firstName  = fName;}
 	public void setLastName(String lName){ this.lastName = lName;}
-	public void setAuthenticate(boolean authenticate){ this.authenticated = true;}
+	public void setAuthenticate(boolean authenticate){ this.authenticated = authenticate;}
 }
 

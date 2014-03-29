@@ -4,7 +4,9 @@ public class Patient extends User {
 	private double height;
 	private Address pAddress;
 	
-	public Patient (double w, double h, Address p){
+	public Patient (String email, String fName, String lName, String password,
+			double w, double h, Address p){
+		super(email,fName,lName,password);
 		this.weight = w;
 		this.height = h;
 		this.pAddress = p;
