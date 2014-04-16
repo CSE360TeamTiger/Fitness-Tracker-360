@@ -4,6 +4,7 @@ public class HealthLog extends Log{
 	private double sysBloodPressure;
 	private double diaBloodPressure;
 	
+	//construtor 
 	public HealthLog(String date, String t, double d,
 			int cals, double sbp, double dbp){
 		super(date,t,d);

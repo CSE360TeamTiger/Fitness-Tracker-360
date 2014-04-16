@@ -27,10 +27,11 @@ public class Log {
 		this.date = "";
 		this.time = "";
 		this.duration = 0;
-		this.parent  = null;
-		this.leftChild = null;
-		this.rightChild = null;
+		this.parent  = parent2;
+		this.leftChild = leftChild2;
+		this.rightChild = rightChild2;
 	}
+	
 	public String getDate(){return date;}
 	public String getTime(){return time;}
 	public Log getParent(){return parent;}
