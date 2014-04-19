@@ -1,3 +1,5 @@
+import java.text.Collator;
+
 
 public class UserController {
 	UserControllerNode root;
@@ -31,8 +33,20 @@ public class UserController {
 	
 	protected boolean insert(Patient patientData){
 		UserControllerNode newNode = new UserControllerNode(patientData);
+		UserControllerNode node = root;
 		boolean lChild = false;
+		int stringCompare;
 		
+		while(newNode != null){
+			stringCompare = patientData.getEmail().compareTo(node.patientData.getEmail());
+			if(patientData == node.patientData){
+				return false;
+			}
+			else if(patientData.getEmail() < node.patientData.getEmail()){
+				lChild = true;
+				
+			}
+		}
 		return false;
 	}
 	public void createPatient(Patient newPatient){
