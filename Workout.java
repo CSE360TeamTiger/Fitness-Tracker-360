@@ -1,4 +1,4 @@
-
+//This should be finished.
 public class Workout {
 	private String name;
 	private Workout next;

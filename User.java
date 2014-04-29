@@ -1,10 +1,13 @@
 
+import "Address.java"
+
 public class User {
 	private boolean authenticated;
 	private String email;
 	private String firstName;
 	private String lastName;
 	private String encryptedPassword;
+	private Address address;
 	
 	public User(String email, String fName, String lName, String password){
 		this.email = email;
