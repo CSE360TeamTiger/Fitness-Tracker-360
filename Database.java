@@ -57,8 +57,6 @@ public class Database {
         switch (str) {
             case "Doctor":
                 return "doctors";
-            case "Nurse":
-                return "nurses";
             case "Patient":
                 return "patients";
             default:
