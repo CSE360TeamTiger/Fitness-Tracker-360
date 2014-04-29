@@ -1,4 +1,4 @@
-package hbmed;
+
 
 import java.sql.Connection;
 import java.util.Properties;
