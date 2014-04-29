@@ -1,9 +1,4 @@
-import GUI.java;
-import User.java;
-import static Log.java;
-import Patient.java;
-import Doctor.java;
-import UserController.java;
+
 import java.awt.EventQueue;
 //Main Class where program is executed
 

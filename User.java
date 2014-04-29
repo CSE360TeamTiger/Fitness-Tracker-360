@@ -1,5 +1,4 @@
 
-import "Address.java"
 
 public class User {
 	private boolean authenticated;

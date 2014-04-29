@@ -1,3 +1,4 @@
+
 public class Doctor extends User {
 
 	// Patient Node class defined within doctor.
@@ -24,12 +25,12 @@ public class Doctor extends User {
 		return this.patients;
 	}
 
-	public Patient getPatientInfo(string email) {
+	public Patient getPatientInfo(String email) {
 		// This will need to look at the database and return the info of the
 		// patient with the email searched.
 	}
 
-	public boolean addPatient(string email) {
+	public boolean addPatient(String email) {
 		// 1. Check DB for a user with the email.
 		// 2. If the user exists, add the patient to the doctors patient list.
 		// 3. return true.
@@ -37,7 +38,7 @@ public class Doctor extends User {
 
 	}
 
-	public boolean removePatient(string email) {
+	public boolean removePatient(String email) {
 		// 1. Check patient list for a user with the email entered.
 		// 2. Remove the user from the list if it exists.
 		// 3. Return true.
