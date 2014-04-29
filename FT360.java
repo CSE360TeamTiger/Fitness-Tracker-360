@@ -1,9 +1,10 @@
-import GUI.java
-import User.java
-import Log.java
-import Patient.java
-import Doctor.java
-import UserController.java
+import GUI.java;
+import User.java;
+import static Log.java;
+import Patient.java;
+import Doctor.java;
+import UserController.java;
+import java.awt.EventQueue;
 //Main Class where program is executed
 
 
@@ -12,22 +13,26 @@ public class FT360 {
 
 	public static void main(String[] args) {
 
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+			GUI gui = new GUI();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+});
+
 
 		
+//	}
 
 
-		
-	}
-
-	public static void buildGUI()
-	{
-		GUI gui = new GUI();
-	}
 
 }
 
 //Add user to database
-public void addUsertoDataBase()
+public void addUsertoDataBase(){}
 //Remove User from Database
 
 
@@ -44,6 +49,6 @@ public void addUsertoDataBase()
 
 //Add patient to doctor list
 //Remove patient from doctor list
-
+}
 
 
