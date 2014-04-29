@@ -316,7 +316,7 @@ public class GUI extends JFrame {
 		loginPanel.add(passwordField_login);
 		
 		//creates forgot password button
-		btnForgotPassowrd = new JButton("Forgot Passowrd?");
+		btnForgotPassowrd = new JButton("Forgot Password?");
 		btnForgotPassowrd.setBounds(223, 235, 151, 29);
 		btnForgotPassowrd.setFont(new Font("Lucida Grande", Font.BOLD, 13));
 		loginPanel.add(btnForgotPassowrd);
