@@ -34,6 +34,7 @@ public class Doctor extends User {
 		// 1. Check DB for a user with the email.
 		// 2. If the user exists, add the patient to the doctors patient list.
 		// 3. return true.
+		return true;
 		// 4. Else return false.
 
 	}
@@ -42,6 +43,7 @@ public class Doctor extends User {
 		// 1. Check patient list for a user with the email entered.
 		// 2. Remove the user from the list if it exists.
 		// 3. Return true.
+		return true;
 		// 4. otherwise return false.
 	}
 

@@ -47,10 +47,11 @@ public class UserController {
 					node.patientData.getEmail());
 			if (patientData == node.patientData) {
 				return false;
-			} else if (patientData.getEmail() < node.patientData.getEmail()) {
-				lChild = true;
-
-			}
+			} 
+//			else if (patientData.getEmail() < node.patientData.getEmail()) {
+//				lChild = true;
+//
+//			}
 		}
 		return false;
 	}
